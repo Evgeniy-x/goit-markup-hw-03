@@ -58,7 +58,6 @@ h1,h2,h3,p,ul {
 
 .header {
     background-color: var(--color-primary);
-    padding: 24px 0;
 }
 
 .box-shadow{ 
@@ -82,6 +81,7 @@ header .container {
     text-transform: uppercase;
     color: var(--color-logo);
     margin-right: 77px;
+    padding: 24px 0;
 }
 
 .logo-header {
@@ -99,6 +99,8 @@ header .container {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-title);
+    display: block;
+    padding: 24px 0;
 }
 
 .nav-item:hover,
@@ -122,6 +124,9 @@ header .container {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-text);
+    padding: 24px 0;
+    display: block;
+    padding-top: 24px;
 }
 
 .contact-item:hover,
@@ -136,6 +141,7 @@ header .container {
     background-color: var(--color-title);
     padding: 192px 0;
 }
+
 
 .hero-title {
     font-weight: 700;
@@ -270,13 +276,16 @@ header .container {
     display: block;
 }
 
+.team-card {
+    padding: 32px 16px;
+}
+
 .team-name {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -286,7 +295,6 @@ header .container {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-text);
-    margin-bottom: 32px;
 }
 
 
@@ -363,7 +371,7 @@ header .container {
     color: var(--color-text);
 }
 
-.border-card {
+.portfolio-card {
     border: 0.5px solid var(--color-cloud);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     border-top: 0;
@@ -375,8 +383,7 @@ header .container {
 
 .footer {
     background-color: var(--color-title);
-    padding-top: 52px;
-    padding-bottom: 148px;
+    padding: 100px 0;
 }
 
 .logo-footer {
